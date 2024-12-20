@@ -1,16 +1,7 @@
-type User = {
-    username: string;
-    age: number;
-    toggle: boolean;
-    empty: null;
-}
+const age: number = 50;
+const username: string = 'Max';
+const toggle: boolean = true;
+const empty: null = null;
 
-const user: User = {
-    username: 'Max',
-    age: 50,
-    toggle: true,
-    empty: null,
-}
+const callback = (a: number): number => { return 100 + a };
 
-
-const callback: (a: number) => number = (a) => { return 100 + a };

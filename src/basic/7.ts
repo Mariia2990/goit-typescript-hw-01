@@ -7,11 +7,11 @@ type Pages = {
     title: string;
     likes: number;
     accounts: string[];
-    status: 'open' | 'false';
+    status: 'open' | 'close';
     details?: Details;
 }
 
-const page1 = {
+const page1: Pages = {
 title: 'The awesome page',
 likes: 100,
 accounts: ['Max', 'Anton', 'Nikita'],
@@ -22,7 +22,7 @@ updateAt: new Date('2021-05-01'),
 }
 }
 
-const page2 = {
+const page2: Pages= {
 title: 'Python or Js',
 likes: 5,
 accounts: ['Alex'],
